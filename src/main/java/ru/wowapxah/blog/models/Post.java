@@ -16,6 +16,15 @@ public class Post {
     private String full_text;
     private int views;
 
+    public Post() {
+    }
+
+    public Post(String title, String announce, String full_text) {
+        this.title = title;
+        this.announce = announce;
+        this.full_text = full_text;
+    }
+
     public Long getId() {
         return id;
     }
